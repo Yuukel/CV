@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    background-color: #dedfe5;
+    background: linear-gradient(to bottom, rgba(222,223,229,1) 0%, rgba(203,204,210,1) 100%);
+
+}
+
+body>div{
+    width: 1000px;
+    min-height: 100%;
+    height: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 100%;
+    flex: 25%;
+    background-color: #29394D;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+aside h3{
+    color: #cfd5dd;
+    font-size: 24px;
+}
+
+aside h4{
+    font-size: 20px;
+}
+
+aside h4, aside p{
+    color: white;
+}
+
+aside>.img-container{
+    margin-top :10px;
+    width: 200px;
+    height: 200px;
+}
+
+aside>.img-container>img{
+    width: 200px;
+}
+
+aside hr{
+    color: #84909f;
+    width: 90%;
+    margin-bottom: -10px;
+}
+
+aside .category-container{
+    width: 100%;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+aside .category-container>div{
+    margin-left: 7px;
+}
+
+aside .info-container>h4{
+    margin-bottom: -15px;
+}
+
+aside .level{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.green-dot{
+    width: 25px;
+    height: 25px;
+    background-color: #04AA6D;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.empty-dot{
+    width: 25px;
+    height: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+main{
+    padding-left: 10px;
+    flex:75%;
+    background-color: white
+}
+
+main hr{
+    color: #84909f;
+    width: 75%;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+main>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    font-size: 50px;
+    color: #29394d;
+    margin-bottom: -15px;
+}
+
+main h2, main h3{
+    color: #84909f;
+}
+
+main h2{
+    font-size: 32px;
+}
+
+main h3{
+    font-size: 26px;
+    margin-bottom: -5px;
+}
+
+main h4, main p{
+    color: #29394d;
+    margin-bottom: -10px;
+}
+
+main .formation-container, main .work-container, main .skill-container, main .project-container{
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+main .container-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .project-category{
+    margin-bottom: 40px;
+}
