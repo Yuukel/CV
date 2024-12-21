@@ -43,14 +43,19 @@ aside{
 aside h3{
     color: #cfd5dd;
     font-size: 24px;
+    margin-top: 0;
 }
 
 aside h4{
     font-size: 20px;
 }
 
-aside h4, aside p{
+aside h4, aside p, aside a{
     color: white;
+}
+
+aside a{
+    display: block;
 }
 
 aside>.img-container{
@@ -66,7 +71,6 @@ aside>.img-container>img{
 aside hr{
     color: #84909f;
     width: 90%;
-    margin-bottom: -10px;
 }
 
 aside .category-container{
