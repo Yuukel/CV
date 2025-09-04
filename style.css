@@ -148,7 +148,7 @@ main h3{
     margin-bottom: -5px;
 }
 
-main h4, main p{
+main h4, main p, main a, main a:visited{
     color: #29394d;
     margin-bottom: -10px;
 }
