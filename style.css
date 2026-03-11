@@ -186,8 +186,18 @@ main .formation-container, main .work-container, main .skill-container, main .pr
 main .container-header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 main .project-category{
     margin-bottom: 40px;
+}
+
+main .skill-content{
+    display: flex;
+}
+
+main .skill-content>div{
+    margin-right: 20px;
+    flex: 1
 }
